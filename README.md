@@ -43,8 +43,6 @@ graph = networkx.complete_graph(10)
 figure = netp.plot(graph, 'kamada_kawai_layout')
 
 offline.plot(figure)
-
-level = autoilr.get_level(text, "English")
 ```
 
 ## Authors
