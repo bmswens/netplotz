@@ -1,6 +1,6 @@
 # netplotz
 
-Utilize plotly to visualize networkx graphs.
+Utilize Python to visualize networks.
 
 ## Getting Started
 
