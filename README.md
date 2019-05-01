@@ -38,7 +38,7 @@ import plotly.offline as offline
 import netplotz as netp
 
 graph = networkx.complete_graph(10)
-figure = netp.plot(graph, 'kamada_kawai_layout')
+figure = netp.plot(graph, scatter_layout='kamada_kawai_layout')
 
 offline.plot(figure)
 ```
